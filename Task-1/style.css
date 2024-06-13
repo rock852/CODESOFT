@@ -1,0 +1,396 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(12, 112, 180);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* overflow-y: hidden; */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.container {
+  /* width: 80%; */
+  margin: 0 auto;
+  height: 100%; 
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  /* background-color: #f8f8f8; Optional: Add a background color */
+}
+
+/* //rawat tannu link */
+.main-page {
+  text-decoration: none; /* Removes the underline from the link */
+  color: black; /* Changes the color of the link */
+  font-size: 30px; /* Increases the font size */
+  color: whitesmoke;
+  margin-left: 20px;
+}
+
+.links_nav_bar {
+  flex-grow: 1; /* Makes the links container take available space */
+  display: flex; /* Allows flex behavior */
+  justify-content: flex-end; /* Aligns links to the right */
+}
+
+.links_nav_bar ul {
+  list-style-type: none; /* Removes the default list bullets */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  display: flex; /* Makes the list items display in a row */
+  gap: 10px; /* Adds space between the items */
+}
+
+.links_nav_bar a {
+  text-decoration: none; /* Removes the underline from links */
+  /* color: blue; Changes the color of the links */
+  color: whitesmoke;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.links_nav_bar span {
+  color: whitesmoke; /* Adds color to span text for consistency */
+  cursor: pointer;
+}
+
+.intro {
+  margin-top: 100px;
+   
+}
+
+/* intro paragraph */
+.profile_image_p .one {
+  color: whitesmoke;
+  font-size: 50px;
+  font-weight: bold;
+
+  margin-bottom: 250px;
+
+  text-align:start;
+  margin-top: 50px;
+}
+
+/* profile image */
+.profile_image img {
+  border-radius: 381px;
+  background-color: rgb(204, 204, 15);
+  width: 349px;
+  height: 396px;
+  display: inline;
+  float: left;
+  margin: 0 20px 20px 0; /* Adds margin around the image */
+  margin-right: 100px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+.intro_text {
+  overflow: hidden;
+  margin-right: 540px;
+  width: 97.5%;
+   color: rgb(12, 112, 180);
+   background-color: whitesmoke;
+  
+  text-align: center;
+  margin-top: 250px;
+  padding: 20px;
+  
+
+}
+.intro_text h3 {
+  /* background-color: whitesmoke;\ */
+  /* color: blue; */
+  /* float: left; */
+  /* margin-left: 702px;
+  margin-top: 70px; */
+  /* display: blockx; */
+  font-size: 30px;
+}
+
+.intro_text p {
+  /* color: whitesmoke; */
+  float: right;
+  /* width: 500px; */
+  margin-top: 30px;
+  font-size: 25px;
+  line-height: 1.8;
+  /* width: 600px; */
+  margin-bottom: 100px;
+  width: 80%;
+  text-align: justify;
+  margin-right: 118px;
+}
+ 
+
+.quotes h2 {
+  /* display: block; */
+  background-color: whitesmoke;
+  padding: 20px;
+  margin-top: 30px;
+  clear: both;
+  padding: 30px;
+  width: 100%;
+  height: 300px;
+  font-size: 50px;
+  /* border-radius: 30px; */
+  color:  rgb(12, 112, 180);
+  text-align: center;
+  margin-top: 20px;
+}
+.quotes {
+  width: 100%;
+  
+}
+
+.skill {
+  margin-top: 100px; /* Adds some space above the skills section */
+  margin-left: 200px;
+}
+
+.skill h3 {
+  font-size: 1.8em; /* Sets the font size for the heading */
+  margin-top: 0; /* Removes default top margin */
+  color: whitesmoke; /* Sets the color for the heading */
+  font-weight: bold; /* Makes the heading bold */
+  text-align: center; /* Centers the heading text */
+  margin-bottom: 20px; /* Adds space below the heading */
+  margin-right: 279px;
+}
+
+.skill {
+  margin-bottom: 20px; /* Adds space between each skill */
+  /* margin-top: 10px; */
+  margin-top: 20px;
+}
+
+.skill label {
+  display: block; /* Makes the label take up a full line */
+  font-size: 1em; /* Sets the font size */
+  color: whitesmoke; /* Sets the text color */
+  margin-bottom: 5px; /* Adds space below the label */
+}
+
+.skill input[type="range"] {
+  width: 70%; /* Makes the range input take up full width */
+  -webkit-appearance: none; /* Removes default styling */
+  appearance: none; /* Removes default styling */
+  height: 10px; /* Sets the height of the range input */
+  border-radius: 5px; /* Rounds the corners of the range input */
+  background: #f1eeee; /* Sets the background color */
+  outline: none; /* Removes the outline */
+  opacity: 0.7; /* Makes the range input slightly transparent */
+  transition: opacity 0.2s; /* Adds a transition effect */
+}
+
+.skill input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Removes default styling for the thumb */
+  appearance: none; /* Removes default styling for the thumb */
+  width: 20px; /* Sets the width of the thumb */
+  height: 20px; /* Sets the height of the thumb */
+  border-radius: 50%; /* Rounds the corners of the thumb */
+  background-color: rgb(5, 5, 5); /* Sets the background color of the thumb */
+  cursor: pointer; /* Changes the cursor to a pointer */
+}
+
+.skill input[type="range"]::-moz-range-thumb {
+  width: 20px; /* Sets the width of the thumb */
+  height: 20px; /* Sets the height of the thumb */
+  border-radius: 50%; /* Rounds the corners of the thumb */
+  background-color: whitesmoke; /* Sets the background color of the thumb */
+  cursor: pointer; /* Changes the cursor to a pointer */
+  margin-bottom: 100px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%; /* Adjusts the container width for smaller screens */
+  }
+  .profile_image {
+    width: 100%; /* Adjusts the width for smaller screens */
+    height: auto; /* Maintains the aspect ratio */
+    float: none; /* Removes the float */
+    margin: 0 auto 20px auto; /* Centers the image */
+  }
+  .intro_text {
+    text-align: center; /* Centers the text for smaller screens */
+  }
+}
+/* //skill bar */
+.skill-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  
+}
+
+.outer-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: conic-gradient(#fa4214 0%, #4caf50 var(--percent), #ddd var(--percent), #ddd 100%);
+}
+
+.inner-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-percent {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.skill-name {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main_flex{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  overflow: hidden;
+  margin-top: 46px;
+  margin-bottom: 191px;
+  
+}
+
+.skills_heading{
+  width: 100%;
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+    /* color: whitesmoke; */
+    
+}
+.skill-name{
+  color: whitesmoke;
+}
+.resume{
+  clear: both;
+  /* width: 500x; */
+  /* background-color: whitesmoke; */
+  /* margin-top: 70px; */
+  width: 100%;
+  /* background-color: whitesmoke; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.resume h1{
+  margin-top: 100px;
+  color: rgb(12, 112, 180);
+  /* float: left; */
+  /* display: inline; */
+  flex: 1;
+}
+.resume .list_{
+  float: right;
+  margin-right: 0;
+
+
+}
+
+/* //expand */
+.expandable-list {
+  margin: -80px 66px;
+  width: 50%;
+  align-items: right;
+  /* background-color: whitesmoke; */
+  height: 400px;
+  float: right;
+  margin-bottom: 160px;
+ 
+  
+}
+
+.expandable-item {
+  margin-bottom: 10px;
+}
+
+.expandable-header {
+  width: 100%;
+  /* background-color: #4caf50; */
+  color: white;
+  padding: 10px;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 40px;
+  transition: background-color 0.3s;
+  background-color: rgb(12, 112, 180);
+  /* background-color: whitesmoke; */
+  /* border: 1px solid rgb(250, 242, 242); */
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  padding: 30px;
+
+}
+
+ 
+
+.expandable-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  /* background-color: #f1f1f1; */
+  padding: 0 10px;
+  color:whitesmoke;
+  
+}
+
+.expandable-content p {
+  margin: 10px 0;
+}
+.resume_Section{
+  margin-top: 124px;
+  margin-left: 73px;
+  color: whitesmoke;
+}
+/* footer */
+.footer {
+  background-color: whitesmoke;
+  color: rgb(12, 112, 180);
+  text-align: center;
+  padding: 20px;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  color: rgb(12, 112, 180);
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: rgb(12, 112, 180);
+}
+
+.footer .icon {
+  margin: 0 10px;
+}
