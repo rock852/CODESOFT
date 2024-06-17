@@ -1,0 +1,316 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.slider {
+    position: relative;
+    width: 80%;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.slider h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 10px;
+    /* text-align: center; */
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.card {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+
+section {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    margin: 20px 0;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-description {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 128px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+
+.service-card {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.service-card i {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.book-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.book {
+    background: #fff;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.book img {
+    width: 100px;
+    height: 150px;
+}
+
+.review {
+    background: #fff;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.aside-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+    /* margin: 20px; */
+    /* flex-direction: row; */
+}
+
+aside {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+aside img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+aside h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust as needed */
+}
+
+.character {
+    flex: 1 1 30%; /* Each character takes up approximately 30% of the row */
+    text-align: center;
+}
+
+.character img {
+    width: 100px; /* Adjust as needed */
+    
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px; /* Space between image and name */
+}
+
+footer {
+    background: #333;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* //contact code */
+footer {
+    background-color: #f1f1f1; /* Light grey background for the footer */
+    padding: 20px; /* Add some padding for spacing */
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 10px 0; /* Adjust margin for the footer text */
+    flex-basis: 100%;
+}
+
+.contact-us , .subscibe {
+    margin: 20px 0; /* Add some spacing above and below the "Contact Us" section */
+    flex-basis: 100%;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between icons as needed */
+    margin-top: 10px; /* Add spacing above the social media icons */
+}
+
+.social-media-links a {
+    color: #000; /* Change to your preferred color */
+    font-size: 2em; /* Adjust size as needed */
+    transition: transform 0.3s;
+}
+
+.social-media-links a:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+.subscribe form {
+    display: flex;
+    justify-content: center; /* Center the form elements */
+    gap: 10px; /* Space between input and button */
+}
+
+.subscribe input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1; /* Allow the input field to take up available space */
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background-color: red; /* Red background for the button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe button:hover {
+    background-color: darkred; /* Darker red on hover */
+}
